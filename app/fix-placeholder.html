@@ -1,0 +1,15 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<polymer-element name="fix-placeholder" attributes="value field-placeholder" noscript>
+  <template>
+  	<style>
+  		#fix-placeholder {
+  			border: 2px rgb(238, 238, 238) inset;
+  		}
+  	</style>
+  	<div id="container">
+	    <label id="fix-placeholder" for="field">{{value}}</label>
+	    <input id="field" type="text" placeholder="{{placeholder}}">
+  	</div>
+  </template>
+</polymer-element>

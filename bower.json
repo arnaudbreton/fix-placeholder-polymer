@@ -1,0 +1,24 @@
+{
+  "name": "fix-placeholder-polymer",
+  "version": "1.0.0",
+  "homepage": "https://github.com/arnaudbreton/fix-placeholder-polymer",
+  "authors": [
+    "Arnaud BRETON arn.breton@gmail.com"
+  ],
+  "description": "A custom element (using Polymer.js) wrapping a fix placeholder (using a CSS trick) and an input field",
+  "keywords": [
+    "polymer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.0"
+  }
+}
