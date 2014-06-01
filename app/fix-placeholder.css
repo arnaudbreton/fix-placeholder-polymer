@@ -1,0 +1,17 @@
+#container {
+  display: inline-block;
+}
+#fix-placeholder {
+  border-width: 2px;
+  border-right: none;
+  font-size: 13px;
+  padding: 0 2px;
+
+}
+#field {
+  border-left: none !important;
+  margin-left: -4px;
+}
+.no-outline:focus {
+  outline: none;
+}
